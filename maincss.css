@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #portrait-image {
+    width: 50px;    /* Extremely small width */
+    height: 75px;   /* Extremely small height */
+    object-fit: contain; /* Ensures the image doesn't get stretched */
+    max-width: 100%;  /* Prevents image from exceeding its container's width */
+    display: block;  /* Ensures no extra space around the image */
+  }
+  
